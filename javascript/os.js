@@ -1,0 +1,14 @@
+const os=require("os");
+let mySystem=os.arch();
+//console.log(mySystem);
+let myCPUs=os.cpus();
+//console.log(myCPUs);
+let hostName=os.hostname();
+//console.log(hostName);
+let networkInfo=os.networkInterfaces();
+//console.log(networkInfo);
+console.log(os.type());
+console.log(os.platform());
+console.log(os.release());
+console.log(os.userinfo());
+console.log(os.uptime());
